@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Get Calendar Info Page</title>
+<link rel="stylesheet" href="style.css"> 
+</head>
+
+<body>
+
+<header>
+    <h1>Get Calendar Info</h1>
+</header>
+<div class="main">
+
+    <div id = "search">
+    <label for="countryCode">Enter Country Code:</label>
+    <input type="text" id="countryCode">
+    <button type="button">Show Calendar!</button>
+    </div>
+    
+    <div id="load">Loading ... </div>
+        <div id="calendar"> 
+          <h1 id="calendarCity">Weather City</h1>
+          <h1 id="calendarholidayName">Description</h1>
+          <h1 id="calendarTemperature">Temperature</h1>
+        </div>
+    </div>
+
+</div>
+
+<script src="init.js">  </script>
+<script src="calendar-app.js">  </script>
+<script src="calendar-data.js">  </script>
+
+</body>
+
+</html>
